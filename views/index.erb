@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pares e impares</title>
+  </head>
+  <body>
+    <% 50.times do |i|%>
+      <% residuo = i%2 %>
+        <% if residuo == 0%>
+        <% numero = "Soy Impar!"%>
+        <% else%>
+        <% numero = "Soy Par!"%>
+      <% end%>
+
+      <h1><%= i+1%> <%= numero%> </h1>
+
+
+    <%end%>
+
+  </body>
+</html>
